@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMA/Ic5epl3PcTxrG4lsrjG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ramapoojitha06-collab/IIA-DeptActivity-4264/blob/main/WEEK%20-1/Untitled2.ipynb.AGRICULTURE\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6DV45C7XZz3O",
+        "outputId": "3ebd5f44-b8d1-40d9-801b-00f8850530a1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'crop_name': 'Rice', 'scientific_name': 'Oryza sativa', 'crop_type': 'Cereal', 'season': 'kharif', 'temparature': 25, 'annual_rainfall': 1200, 'soil_type': 'clayey loam', 'ideal_soil_ph': 2.5, 'growing_duration_time': 120, 'water_requirements': 'high', 'avg_yield_per_hectare_kg': 4000, 'primary_nutrients': ['Nitrogen', 'phosphorous', 'potassium'], 'common_pests': ['stem boror', 'brown planthopper'], 'harvesting_method': 'manual/mechanical', 'storage_humidity_percent': 13}\n",
+            "{'crop_name': 'Rice', 'scientific_name': 'Oryza sativa', 'crop_type': 'Cereal', 'season': 'kharif', 'temparature': 25, 'annual_rainfall': 1200, 'soil_type': 'clayey loam', 'ideal_soil_ph': 2.5, 'growing_duration_time': 120, 'water_requirements': 'high', 'avg_yield_per_hectare_kg': 4000, 'primary_nutrients': ['Nitrogen', 'phosphorous', 'potassium'], 'common_pests': ['stem boror', 'brown planthopper'], 'harvesting_method': 'manual/mechanical', 'storage_humidity_percent': 13, 'Area': 'myhh heart', 'Pesticide': 'sharonuuu'}\n"
+          ]
+        }
+      ],
+      "source": [
+        "crop_data={\n",
+        "\"crop_name\":\"Rice\",\n",
+        "\"scientific_name\":\"Oryza sativa\",\n",
+        "\"crop_type\":\"Cereal\",\n",
+        "\"season\": \"kharif\",\n",
+        "\"temparature\":25,\n",
+        "\"annual_rainfall\":1200,\n",
+        "\"soil_type\":\"clayey loam\",\n",
+        "\"ideal_soil_ph\":2.5,\n",
+        "\"growing_duration_time\":120,\n",
+        "\"water_requirements\":\"high\",\n",
+        "\"avg_yield_per_hectare_kg\":4000,\n",
+        "\"primary_nutrients\": [\"Nitrogen\", \"phosphorous\", \"potassium\"],\n",
+        "\"common_pests\": [\"stem boror\", \"brown planthopper\"],\n",
+        "\"harvesting_method\":\"manual/mechanical\",\n",
+        " \"storage_humidity_percent\":13\n",
+        "}\n",
+        "print(crop_data)\n",
+        "crop_data[\"Area\"]=\"myhh heart\"\n",
+        "crop_data[\"Pesticide\"]=\"sharonuuu\"\n",
+        "print(crop_data)\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "crop_data[\"primary_nutrients\"] = [\"ammonium\",\"zinc\",\"silicon\",\"boran\",\"manganese\",\"copper\"]\n",
+        "print(\"updated crop_data:\",crop_data[\"primary_nutrients\"])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bAHnQ0-Lm1B3",
+        "outputId": "628657cb-60cb-4fa8-8a94-ee3264b5f804"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "updated crop_data: ['ammonium', 'zinc', 'silicon', 'boran', 'manganese', 'copper']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "m6odtLLTm0m3"
+      }
+    }
+  ]
+}
